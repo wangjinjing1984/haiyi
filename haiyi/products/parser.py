@@ -58,10 +58,18 @@ def read_xls(index, xls_file):
                 ('market_cost', 'float'),
                 ('price_3w', 'float'),
                 ('price_1w', 'float'),
-                ('price_3k', 'float'),
+                #('price_3k', 'float'),
                 ('price_retail', 'float'),
                 ('hot', 'str'),
-                ('difficulty', 'str')
+                ('difficulty', 'str'),
+                #修改后的工作表列
+                ('cust_clear_free', 'float'),
+                ('vip_price', 'float'),
+                ('customer_message', 'str'),
+                ('product_hk_info', 'str'),
+                ('dutyfree_storeprice', 'float'),
+                ('hot_sell_product', 'str'),
+                ('findpro_help', 'str')
             ]
             j = 0
             src = {}
