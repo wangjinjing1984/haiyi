@@ -38,7 +38,7 @@ class AInfo(models.Model):
 
 class BInfo(models.Model):
     id = models.AutoField(primary_key=True)
-    market_cost_price = models.FloatField('市场成本', null=True)
+    #market_cost_price = models.FloatField('市场成本', null=True)
     cust_clear_free = models.FloatField('清关费用', null=True)
     vip_price = models.TextField('活动特价', null=True)
     customer_message = models.TextField('客户留言', null=True)
